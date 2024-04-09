@@ -180,4 +180,72 @@ footer ul li{
     display: none;
 }
 
+/* INDEX */
 
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* videoclipul va fi în spatele content-ului */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Overlay semi-transparent pentru a adăuga contrast textului */
+    z-index: 1; /* Overlay-ul peste video, dar sub text */
+}
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    left:15.5%;
+}
+
+.main-title {
+    font-size: 5rem; /* Alege dimensiunea dorită pentru font */
+    color: #FFF; /* Schimbă culoarea dacă este necesar */
+    opacity: 0;
+    animation: zoomIn 1s forwards;
+    animation-delay: 0.5s; /* Sau ajustează când vreau să înceapă animația */
+
+}
+
+/* FISIERE MEDIA */
+
+@media (min-aspect-ratio: 16/9) {
+    .background-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .background-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(2);
+        opacity: 1;
+    }
+}

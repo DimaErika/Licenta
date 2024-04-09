@@ -19,11 +19,10 @@ include("inc/parts/header.php");
        <source src="assets/videos/test_fundal.mp4" type="video/mp4">
         Browserul tău nu suportă tagul video.
     </video>
-    <    <div id="data-curenta" class="data-stilizata"></div>
+      <div id="data-curenta" class="data-stilizata"></div>
     <div class="content" >
         <h1 class="main-title">Sigma</h1>
-    </div>
-    <div class="content" >
+        <hr>
         <p class="subtitle" >
             Dedicat dezvoltării tale personale și profesionale </p>
     </div>
