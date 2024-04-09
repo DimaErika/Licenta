@@ -14,20 +14,20 @@
 <?php
 include("inc/parts/header.php");
 ?>
-<!--<div class="video-container">-->
-<!--    <video autoplay loop muted playsinline class="background-video">-->
-<!--        <source src="assets/videos/test_fundal.mp4" type="video/mp4">-->
-<!--        Browserul tău nu suportă tagul video.-->
-<!--    </video>-->
-<!--    <div id="data-curenta" class="data-stilizata"></div>-->
-<!--    <div class="content" >-->
-<!--        <h1 class="main-title">Sigma</h1>-->
-<!--    </div>-->
-<!--    <div class="content" >-->
-<!--        <p class="subtitle" >-->
-<!--            Dedicat dezvoltării tale personale și profesionale </p>-->
-<!--    </div>-->
-<!--</div>-->
+<div class="video-container">
+    <video autoplay loop muted playsinline class="background-video">
+       <source src="assets/videos/test_fundal.mp4" type="video/mp4">
+        Browserul tău nu suportă tagul video.
+    </video>
+    <    <div id="data-curenta" class="data-stilizata"></div>
+    <div class="content" >
+        <h1 class="main-title">Sigma</h1>
+    </div>
+    <div class="content" >
+        <p class="subtitle" >
+            Dedicat dezvoltării tale personale și profesionale </p>
+    </div>
+</div>
 <?php
 include("inc/parts/footer.php");
 ?>
