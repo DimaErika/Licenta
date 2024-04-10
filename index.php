@@ -22,8 +22,6 @@ include("inc/parts/header.php");
       <div id="data-curenta" class="data-stilizata"></div>
     <div class="content" >
         <h1 class="main-title">Sigma</h1>
-        <hr>
-        <hr>
         <p class="subtitle" >
             Dedicat dezvoltării tale personale și profesionale </p>
     </div>

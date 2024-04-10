@@ -148,6 +148,7 @@ footer ul li{
     position: fixed; /* Fixam bara de navigație la partea de sus */
     top: 0;
     justify-content: flex-end;
+    z-index: 1000;
     display: flex;
     padding: 0;
 }
@@ -211,7 +212,7 @@ footer ul li{
     top: 50%;
     transform: translateY(-50%);
     z-index: 2;
-    left:15.5%;
+    left:17.5%;
 }
 
 .main-title {
@@ -248,4 +249,91 @@ footer ul li{
         transform: scale(2);
         opacity: 1;
     }
+}
+/* Asigură că meniul este responsiv */
+@media screen and (max-width: 600px) {
+    .navbar-container {
+        flex-direction: column;
+    }
+}
+
+/* LAST NEWs */
+.box{
+    border-radius: 15px;
+    padding: 15px;
+    background: #ffffff;
+    color: #030303;
+    box-shadow: 0 5px 5px -5px;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.last-news .box .avatar{
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 200px;
+    box-shadow: 0 5px 5px -5px;
+    width: 200px;
+    display: block;
+}
+
+
+.last-news .box .placeholder span{
+    font-weight: 300;
+}
+
+.last-news .box a:hover span{
+    color: black;
+}
+
+
+/* CARDS */
+.cards .box span{
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.cards .box img{
+    height: 100px;
+}
+
+.cards .learn{
+    background: #c496d3;
+}
+
+.cards .posts{
+    background: #663772;
+}
+
+.cards .contact{
+    background: #421949;
+}
+
+.cards .competitions{
+    background: #ef5fa6;
+}
+
+/* STATISTICS */
+
+.statistics .box span{
+    display: block;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.statistics .exe span:first-child{
+    color: #ef5fa6
+}
+
+.statistics .courses span:first-child{
+    color: #dd00ff
+}
+
+.statistics .teachers span:first-child{
+    color: #00b4ff
+}
+
+.statistics .students span:first-child{
+    color: #7cd6cc
 }
