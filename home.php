@@ -25,7 +25,7 @@ include("inc/parts/header.php");
                                     <span>Exercitii</span>
                                 </div>
                                 <div class="col-6">
-                                    <img src="images/book.png" alt="">
+                                    <img src="assets/images/book.webp" alt="">
                                 </div>
                             </div>
                         </div>
