@@ -54,7 +54,7 @@ include("inc/parts/header.php");
                 </a>
             </div>
             <div class="col-3">
-                <a href="posts.php">
+                <a href="news.php">
                     <div class="box posts">
                         <div class="row align-items-center">
                             <div class="col-6">
@@ -211,7 +211,7 @@ include("inc/parts/header.php");
             <div class="col-3">
                 <div class="box text-center exe">
                             <span>
-                                25+
+                                15+
                             </span>
                     <p> Probleme</p>
                 </div>
@@ -272,7 +272,7 @@ include("inc/parts/header.php");
                     Doneaza rapid prin Revolut la numarul de telefon 0745495695 sau afla mai multe detalii inainte de a dona in sectiunea dedicata.
                 </p>
                 <p>
-                    <a href="" class="button">Afla mai multe </a>
+                    <a href="doneaza.php" class="button">Afla mai multe </a>
                 </p>
             </div>
             <div class="col-6 text-center">

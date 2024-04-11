@@ -63,102 +63,103 @@ include("inc/parts/header.php");
 
     <div class="pdf-card-container">
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
-        </div>
-    </div>
-    <div class="pdf-card-container">
-        <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
-            <h3 class="pdf-title">Titlul Cursului 1</h3>
-            <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
-        </div>
-        <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
-            <h3 class="pdf-title">Titlul Cursului 1</h3>
-            <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
-        </div>
-        <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
-            <h3 class="pdf-title">Titlul Cursului 1</h3>
-            <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
     </div>
     <div class="pdf-card-container">
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
-        </div>
-    </div>
-    <div class="pdf-card-container">
-        <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
-            <h3 class="pdf-title">Titlul Cursului 1</h3>
-            <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
-        </div>
-        <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
-            <h3 class="pdf-title">Titlul Cursului 1</h3>
-            <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
-        </div>
-        <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
-            <h3 class="pdf-title">Titlul Cursului 1</h3>
-            <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
     </div>
     <div class="pdf-card-container">
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
         <div class="pdf-card">
-            <iframe src="path-to-pdf/document1.pdf" class="pdf-preview"></iframe>
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
             <h3 class="pdf-title">Titlul Cursului 1</h3>
             <p class="pdf-description">Scurtă descriere a cursului...</p>
-            <a href="path-to-pdf/document1.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+        </div>
+    </div>
+    <div class="pdf-card-container">
+        <div class="pdf-card">
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
+            <h3 class="pdf-title">Titlul Cursului 1</h3>
+            <p class="pdf-description">Scurtă descriere a cursului...</p>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+        </div>
+        <div class="pdf-card">
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
+            <h3 class="pdf-title">Titlul Cursului 1</h3>
+            <p class="pdf-description">Scurtă descriere a cursului...</p>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+        </div>
+        <div class="pdf-card">
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
+            <h3 class="pdf-title">Titlul Cursului 1</h3>
+            <p class="pdf-description">Scurtă descriere a cursului...</p>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+        </div>
+    </div>
+    <div class="pdf-card-container">
+        <div class="pdf-card">
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
+            <h3 class="pdf-title">Titlul Cursului 1</h3>
+            <p class="pdf-description">Scurtă descriere a cursului...</p>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+        </div>
+        <div class="pdf-card">
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
+            <h3 class="pdf-title">Titlul Cursului 1</h3>
+            <p class="pdf-description">Scurtă descriere a cursului...</p>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
+        </div>
+        <div class="pdf-card">
+            <iframe src="assets/files/LimbajeDeProgramare.pdf" class="pdf-preview"></iframe>
+            <h3 class="pdf-title">Cursul 1</h3>
+            <p class="pdf-description">Material elaborat în cadrul Proiectului Strategic pe fonduri structurale POCU 122596
+                Educaţia, o şansă pentru Valea Jiului!</p>
+            <a href="assets/files/LimbajeDeProgramare.pdf" target="_blank" class="start-course-btn">Începe Cursul</a>
         </div>
     </div>
 </div>

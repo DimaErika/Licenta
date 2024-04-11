@@ -16,6 +16,7 @@
 <?php
 include("inc/parts/header.php");
 ?>
+
 <div class="body-contact">
 <section class="padding-section">
     <div class="contact-container">

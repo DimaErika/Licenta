@@ -28,9 +28,13 @@ table {
 
 a{
     position: relative;
-    color: #000000;
+    color: #ffffff;
 }
 
+a2{
+    position: relative;
+    color: #000000;
+}
 a:hover::before, .active a::before{
     background: #663772;
     bottom: -2px;
@@ -95,16 +99,17 @@ h1, h2, h3, h4, h5, h6{
 
 footer{
     background: rgba(180, 145, 194, 0.29);
+
 }
 
 footer .copyright {
     font-size: 14px;
-    font-family : 'Arial';
+
+
 }
 
 footer .title{
     display: inline-block;
-    font-family : 'Arial';
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 300;
@@ -330,8 +335,8 @@ footer ul li{
 /* BUTTON */
 
 .button{
-    background: transparent;
-    border: 1px solid #c496d3;
+    background: rgb(102, 55, 114);
+    border: 1px solid #3f184d;
     padding: 5px 20px;
     margin: 0 auto;
     display: inline-block;
@@ -343,7 +348,7 @@ footer ul li{
 }
 
 .button:hover{
-    background: #663772;
+    background: #421949;
     color: #ffffff;
 }
 
@@ -605,7 +610,7 @@ button:hover {
 
 
 .pdf-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.63);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 1rem;
@@ -629,8 +634,8 @@ button:hover {
 
 /* Stilurile pentru titlu, descriere și buton */
 .pdf-title, .pdf-description, .start-course-btn {
-    color: #fff;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #311136;
+    text-shadow: 0 2px 4px rgba(69, 215, 231, 0.71);
 }
 
 .pdf-title {
@@ -656,4 +661,29 @@ button:hover {
 
 .start-course-btn:hover {
     background: darken(var(--button-bg-color), 10%);
+}
+
+/* NEWS */
+
+.body-news{
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    overflow-x: hidden; /* Previne apariția scroll-bar-ului orizontal dacă animațiile depășesc lățimea */
+}
+
+.news-container {
+    max-width: 800px; /* Sau orice altă lățime preferi */
+    margin: 50px auto; /* Centrarea container-ului pe pagină */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-container section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #663772;
 }
