@@ -1,31 +1,15 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+/* GENERAL */
+
+body{
+    background: #ffffff;
+    color: #000000;
+    font-weight: 200;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
+
+.accent-background{
+    background: #f5f4f0 !important;
 }
-body {
-    line-height: 1;
-}
+
 ol, ul {
     list-style: none;
 }
@@ -70,7 +54,9 @@ a:hover{
 a.before-none::before{
     display: none;
 }
-
+.placeholder{
+    font-size: 12px !important;
+}
 .padding-section{
     padding: 80px 0;
 }
@@ -101,7 +87,6 @@ h1, h2, h3, h4, h5, h6{
     -o-transition: all 0.3s;
 }
 
-
 .text-accent{
     color: #c496d3;
 }
@@ -110,7 +95,6 @@ h1, h2, h3, h4, h5, h6{
 
 footer{
     background: rgba(180, 145, 194, 0.29);
-    font-family : 'Arial';
 }
 
 footer .copyright {
@@ -183,12 +167,6 @@ footer ul li{
 
 /* INDEX */
 
-.video-container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-}
-
 .background-video {
     position: absolute;
     top: 50%;
@@ -199,7 +177,6 @@ footer ul li{
     z-index: -1; /* videoclipul va fi în spatele content-ului */
 }
 .overlay {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -250,10 +227,10 @@ footer ul li{
         opacity: 1;
     }
 }
-/* Asigură că meniul este responsiv */
-@media screen and (max-width: 600px) {
-    .navbar-container {
+@media screen and (max-width: 1024px) {
+    .pdf-card-container {
         flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -288,6 +265,7 @@ footer ul li{
 
 
 /* CARDS */
+
 .cards .box span{
     color: #ffffff;
     font-size: 26px;
@@ -336,4 +314,346 @@ footer ul li{
 
 .statistics .students span:first-child{
     color: #7cd6cc
+}
+
+/* ENROOL */
+
+.text-section .avatar{
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid #c445c2;
+    box-shadow: 0 5px 5px -5px;
+}
+
+/* BUTTON */
+
+.button{
+    background: transparent;
+    border: 1px solid #c496d3;
+    padding: 5px 20px;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.button a span{
+    color: #421949;
+}
+
+.button:hover{
+    background: #663772;
+    color: #ffffff;
+}
+
+.button:hover::before{
+    display: none;
+}
+
+/* LOGIN */
+
+.body-login{
+    background-image: url('assets/images/man.webp'), linear-gradient(to bottom right, #c496d3, lightskyblue);
+    background-size: 1120px,1900px;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+
+}
+.login-container {
+    background-color: rgba(255, 255, 255, 0.09); /* Fundal alb semi-transparent */
+    backdrop-filter: blur(10px); /* Efect de blur pentru fundal */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* O umbră pentru un aspect mai profund */
+    margin: 15px 0;
+
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 2rem; /* Spațiu sub titlul formularului */
+}
+
+.input-group {
+    margin-bottom: 1rem; /* Spațiu între câmpurile de input */
+}
+
+.input-group input {
+    width: 100%; /* Lățime completă pentru a umple containerul */
+    padding: 10px;
+    margin-bottom: 10px; /* Spațiu între câmpurile de input */
+    border: 1px solid #ccc; /* O bordură subtilă pentru inputuri */
+    border-radius: 5px; /* Colțuri rotunjite pentru inputuri */
+}
+
+.forgot-password {
+    text-align: right;
+    padding-bottom: 7px;
+    width: 100%; /* Link-ul "Forgot Password?" este aliniat la dreapta containerului */
+}
+
+.forgot-password a {
+    color: #ffffff; /* Culoare aliniată cu tematica generală */
+    text-decoration: none; /* Fără subliniere pentru link */
+
+}
+
+button {
+    width: 100%; /* Lățime completă pentru a se potrivi cu inputurile */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: #663772; /* Culoarea butonului aliniată cu schema de culori */
+    color: white; /* Textul butonului este alb */
+    cursor: pointer;
+    font-size: 1.15rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #421949; /* Culoarea butonului la hover */
+}
+
+/* SLIDER */
+
+.slider .item img{
+    width: 100%;
+    height: 70px;
+}
+
+/* CONTACT */
+
+.body-contact{
+    background-image: url('assets/images/news.webp'), linear-gradient(to bottom right, #ffffff, #5a0868);
+    background-size: 1120px,1900px;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+}
+
+.contact-container {
+    background-color: rgba(172, 239, 233, 0.58);
+    backdrop-filter: blur(40px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    margin: 45px 0;
+
+}
+
+/* CONTENT */
+
+
+:root {
+    --transition-speed: 0.3s;
+    --primary-color: #5c5b5e;
+    --background-color: rgba(181, 159, 185, 0.78);
+    --background-image: url('assets/images/image-1.jpg');
+    --card-background: rgba(255, 255, 255, 0.7);
+    --glass-effect: blur(5px);
+    --shadow-color: rgba(0, 0, 0, 0.35);
+    --shadow-x-offset: -5px;
+    --shadow-y-offset: 5px;
+    --button-bg-color: #7c5ac2;
+    --button-text-color: #ffffff;
+    --card-hover-translate: -10px;
+    --border-hover-color: #967adc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+.body-content{
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-section {
+    text-align: center;
+    max-width: 100%; /* Asigură că secțiunea nu depășește lățimea viewport-ului */
+    margin: auto; /* Centrarea pe orizontală */
+    padding: 50px 20px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-heading::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 3px;
+    background: var(--primary-color);
+    transition: width var(--transition-speed);
+}
+
+.section-heading:hover::after {
+    width: 100%;
+}
+
+.categories-wrapper {
+    background: var(--card-background);
+    backdrop-filter: var(--glass-effect);
+    border-radius: 20px;
+    box-shadow: var(--shadow-x-offset) var(--shadow-y-offset) 15px var(--shadow-color);
+    padding: 25px;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.category-card {
+    background: transparent;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed), border-color var(--transition-speed);
+}
+
+.category-card:hover {
+    transform: translateY(var(--card-hover-translate));
+    box-shadow: 0px 10px 30px var(--shadow-color);
+    border-color: var(--border-hover-color);
+}
+
+.icon-container {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 50%;
+    width: 60px; /* Valoarea predefinită care era în --icon-size */
+    height: 60px; /* Valoarea predefinită care era în --icon-size */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: background-color 0.3s; /* Valoarea predefinită care era în --transition-speed */
+}
+
+.icon-container:hover {
+    background-color: #7c5ac2; /* Culoarea predefinită care era în --background-hover-color */
+}
+
+.category-card img {
+    width: 100%;
+    transition: transform var(--transition-speed);
+}
+
+.category-card:hover img {
+    transform: scale(1.0);
+}
+
+.category-name {
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+/* Adaugă stiluri specifice pentru cardurile PDF */
+.pdf-card-container {
+    display: flex; /* sau 'grid' */
+    justify-content: center; /* Acest stil centrază cardurile în container */
+    align-items: flex-start; /* Alinează cardurile la partea de sus */
+    gap: 20px; /* Acest stil adaugă spațiu între carduri */
+    flex-wrap: wrap; /* Asigură-te că cardurile se vor înfășura dacă nu încap pe o singură linie */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.pdf-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 300px;
+    margin: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.pdf-card:hover {
+    transform: scale(1.00);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* PDF Preview Styles */
+.pdf-preview {
+    border: none;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+/* Stilurile pentru titlu, descriere și buton */
+.pdf-title, .pdf-description, .start-course-btn {
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.pdf-title {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.pdf-description {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.start-course-btn {
+    background: var(--button-bg-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.start-course-btn:hover {
+    background: darken(var(--button-bg-color), 10%);
 }
