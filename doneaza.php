@@ -23,10 +23,10 @@ include("inc/parts/header.php");
             </div>
             <div class="col-6 mt-3">
                 <p>
-                    Redirectionare a 3,5% din impozitul pe venit datorat statului. Termenul limita de depunere a formularului : 25 mai 2021.​
-                </p>
+                    Redirecționați 3,5% din impozitul pe venit către educația în domeniul IT al copiilor.                </p>
                 <p>
-                    Cea mai simpla modalitate de a sustine cele 135 animalute pe care le avem in grija precum si pe cele pe care le-am putea salva in viitor, este prin directionarea a 3,5% din impozitul pe venitul salarial pe care altfel l-ar lua statul. Prin directionarea acestui procent din impozit, bugetul dvs personal nu este afectat, nu va costa nimic in plus, in schimb puteti face un bine animalutelor pe care noi le salvam si le ingrijim.
+                    Contribuiți la dezvoltarea abilităților digitale ale copiilor noștri fără a afecta bugetul personal. Direcționând 3,5% din impozitul pe venitul dvs. salarial, pe care în mod normal l-ați vira către stat, veți sprijini direct educația copiilor interesați de informatică și noile tehnologii.
+
                 </p>
                 <p>
                     Formularul se descarca accesand iconita PDF si se completeaza in felul urmator:
@@ -45,11 +45,11 @@ include("inc/parts/header.php");
                         se depune prin posta sau direct la Administratia Financiara de care apartineti in functie de domiciliul din buletin. Adresele administratiilor financiare le gasiti <a href="https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/telefoane_judete/Regiuni.htm?fbclid=IwAR3KT2ejN-J1L736ZNyijOHQYoE-sfyYshz9OgeHJoA1R2cLgA_9GgzlrVo" target="_blank" class="text-accent">aici</a>
                     </li>
                     <li>
-                        daca nu il puteti depune, ni-l puteti trimite scanat la e-mail : asociatia.animale.hope@gmail.com si il depunem noi.
+                        daca nu il puteti depune, ni-l puteti trimite scanat la e-mail : suport@școaladeinformatică.ro si il depunem noi.
                     </li>
                 </ul>
                 <p>
-                    Va multumim pentru sustinere si contam pe sprijinul cat mai multor persoane, in felul acesta putand ajuta la randul nostru, animalutele nimanui.
+                    Vă mulțumim pentru susținerea adusă școlii noastre și vă asigurăm că fiecare contribuție va avea un impact semnificativ în educația IT a viitoarelor generații.
                 </p>
 
             </div>

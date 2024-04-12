@@ -18,48 +18,71 @@ include("inc/parts/header.php");
 <div class="body-content">
 <div class="categories-section">
     <div class="section-heading">Top Categories</div>
+
     <div class="categories-wrapper">
         <div class="categories-container">
+            <a href="competitions.php" class="category-card-link">
             <div class="category-card">
                 <div class="icon-container">
                     <img src="assets/images/bank.png" alt="Development" class="category-icon">
                 </div>
                 <p class="category-name">Concursuri</p>
             </div>
+            </a>
+
+
+
+            <a href="quiz.php" class="category-card-link">
             <div class="category-card">
                 <div class="icon-container">
-                    <img src="assets/images/bank.png" alt="Development" class="category-icon">
+                    <img src="assets/images/paper.webp" alt="Development" class="category-icon">
                 </div>
                 <p class="category-name">Modul test</p>
             </div>
-            <div class="category-card">
-                <div class="icon-container">
-                    <img src="assets/images/bank.png" alt="Development" class="category-icon">
+            </a>
+
+
+            <a href="finals.php" class="category-card-link">
+                <div class="category-card">
+                    <div class="icon-container">
+                        <img src="assets/images/book.webp" alt="Development" class="category-icon">
+                    </div>
+                    <p class="category-name">Subiecte bacalaureat</p>
                 </div>
-                <p class="category-name">Cursuri</p>
-            </div>
+            </a>
         </div>
+
+
         <div class="categories-container">
-            <div class="category-card">
-                <div class="icon-container">
-                    <img src="images/cuburi.png" alt="Development" class="category-icon">
+            <a href="class9.php" class="category-card-link">
+                <div class="category-card">
+                    <div class="icon-container">
+                        <img src="assets/images/book.webp" alt="Development" class="category-icon">
+                    </div>
+                    <p class="category-name">Exercitii</p>
                 </div>
-                <p class="category-name">Exercitii</p>
-            </div>
-            <a2 href="contact.php" class="category-card-link">
+            </a>
+
+            <a href="contact.php" class="category-card-link">
                 <div class="category-card">
                     <div class="icon-container">
                         <img src="assets/images/book.webp" alt="Development" class="category-icon">
                     </div>
                     <p class="category-name">Discuta cu un profesor</p>
                 </div>
-            </a2>
+            </a>
+
+
+            <a href="about.php" class="category-card-link">
             <div class="category-card">
                 <div class="icon-container">
                     <img src="path-to-icon/development.svg" alt="Development" class="category-icon">
                 </div>
                 <p class="category-name">Echipa noastra</p>
             </div>
+            </a>
+
+
         </div>
     </div>
 

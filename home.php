@@ -20,7 +20,7 @@ include("inc/parts/header.php");
     <div class="container">
         <div class="row align-items-center">
             <div class="col-6 text-center">
-                <img src="assets/images/man.webp" alt="" class="avatar">
+                <img src="assets/images/logo.jpg" alt="" class="avatar">
             </div>
             <div class="col-6">
                 <span class="title">Invata alaturi de Sigma</span>

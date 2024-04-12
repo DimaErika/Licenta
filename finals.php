@@ -13,28 +13,32 @@
 
 <?php include("inc/parts/header.php"); ?>
 
-<div class="body-news">
+<div class="body-finals">
     <div class="news-container">
         <section class="latest-announcement">
-            <h2>Cel mai nou anunț</h2>
-            <p>Aici va fi ultimul anunț important pentru elevi.</p>
+            <h2>Subiecte de bacalaureat</h2>
+            <hr>
+            <p>Bacalaureatul se apropie, și fiecare zi de studiu contează!
+            <p>Acum este momentul să-ți consolidezi cunoștințele și să te asiguri că ești pregătit pentru examen. </p>
+            Revizuiește bine materialele, exersează problemele dificile și răspunde la întrebări de antrenament.
+                Cu un pic de efort zilnic, vei intra în sala de examen pregătit și încrezător. <p>Succes!</p>
         </section>
 
-        <section class="participation-forms">
-            <h2>Fișe de participare</h2>
-            <p>Descarcă și completează fișele necesare pentru activitățile extracurriculare.</p>
-            <a href="assets/files/LimbajeDeProgramare.pdf" download="Fisa_Inscriere" class="download-button">Descarcă Fișa</a>
+        <section class="exam-sessions">
+            <a href="bac2023.php">Bacalaureat 2023 - Materiale</a>
+            <hr>
+            <a href="bac2022.php">Bacalaureat 2022 - Materiale</a>
+            <hr>
+            <a href="bac2021.php">Bacalaureat 2021 - Materiale</a>
+            <hr>
+            <a href="bac2020.php">Bacalaureat 2020 - Materiale</a>
+            <hr>
+            <a href="bac2019.php">Bacalaureat 2019 - Materiale</a>
+            <hr>
+
         </section>
 
-        <section class="schedule">
-            <h2>Orar</h2>
-            <p>Verifică orarul actualizat al claselor.</p>
-        </section>
 
-        <section class="more-info">
-            <h2>Mai multe informații</h2>
-            <p>Descoperă alte resurse și informații utile.</p>
-        </section>
     </div>
 </div>
 
