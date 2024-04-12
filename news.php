@@ -37,9 +37,6 @@
     </div>
 </div>
 
-<div class="background-animations">
-    <!-- Aici pot fi adăugate elemente pentru animații -->
-</div>
 
 <?php include("inc/parts/footer.php"); ?>
 

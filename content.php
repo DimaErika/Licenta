@@ -46,12 +46,14 @@ include("inc/parts/header.php");
                 </div>
                 <p class="category-name">Exercitii</p>
             </div>
-            <div class="category-card">
-                <div class="icon-container">
-                    <img src="images/development.svg" alt="Development" class="category-icon">
+            <a2 href="contact.php" class="category-card-link">
+                <div class="category-card">
+                    <div class="icon-container">
+                        <img src="assets/images/book.webp" alt="Development" class="category-icon">
+                    </div>
+                    <p class="category-name">Discuta cu un profesor</p>
                 </div>
-                <p class="category-name">Discuta cu un profesor</p>
-            </div>
+            </a2>
             <div class="category-card">
                 <div class="icon-container">
                     <img src="path-to-icon/development.svg" alt="Development" class="category-icon">

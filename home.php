@@ -40,7 +40,7 @@ include("inc/parts/header.php");
     <div class="container">
         <div class="row">
             <div class="col-3">
-                <a href="content.php">
+                <a href="class9.php">
                     <div class="box learn">
                         <div class="row align-items-center">
                             <div class="col-6">
@@ -89,7 +89,7 @@ include("inc/parts/header.php");
                                 <span>Concursuri</span>
                             </div>
                             <div class="col-6">
-                                <img src="images/prize.png" alt="">
+                                <img src="assets/images/win.gif" alt="">
                             </div>
                         </div>
                     </div>
@@ -316,6 +316,7 @@ include("inc/parts/footer.php");
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+
 <script>
     $(document).ready(function(){
         $('.slider').slick({

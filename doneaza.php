@@ -15,7 +15,6 @@
 <?php
 include("inc/parts/header.php");
 ?>
-
 <section class="text-page padding-section text-section">
     <div class="container">
         <div class="row align-items-center">
@@ -111,7 +110,6 @@ include("inc/parts/header.php");
         </div>
     </div>
 </section>
-
 <?php
 include("inc/parts/footer.php");
 ?>
