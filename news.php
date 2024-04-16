@@ -16,16 +16,40 @@
 <div class="body-news">
     <div class="news-container">
         <section class="latest-announcement">
-            <h2>Cel mai nou anunț</h2>
+            <section class="latest-announcement">
+                <h2>Cel mai nou anunț</h2>
+                <div class="announcement">
+                    <h4>Înscrieri deschise pentru Concursul Internațional de Matematică</h4>
+                    <p>Data: 15 Aprilie 2024, Ora: 10:00 AM</p>
+                    <p>Încep înscrierile pentru Concursul Internațional de Matematică. Asigurați-vă un loc!</p>
+                    <p>Penru a va inscrie trimite-ti pe mail formularul completat :
+                    <a href="assets/files/inscriere_olimpiada2024.pdf" download="Inscriere_2024" class="download-button">Fisa Inscriere</a>
+                    </p>
+                </div>
+                <div class="announcement">
+                    <h2>Sesiune informativă online pentru părinți și elevi</h2>
+                    <p>Data: 22 Aprilie 2024, Ora: 6:00 PM</p>
+                    <p>Participați la sesiunea noastră informativă online pentru a afla mai multe despre programele școlare.</p>
+                </div>
+                <div class="announcement">
+                    <h2>Lansarea noului curs de programare pentru începători</h2>
+                    <p>Data: 29 Aprilie 2024, Ora: 1:00 PM</p>
+                    <p>Veniți să descoperiți noul nostru curs de programare destinat elevilor fără experiență anterioară.</p>
+                </div>
+                <div class="announcement">
+                    <h2>Expoziție de proiecte științifice ale elevilor</h2>
+                    <p>Data: 5 Mai 2024, Ora: 3:00 PM</p>
+                    <p>Admirați creațiile inovative ale elevilor noștri la expoziția anuală de proiecte științifice.</p>
+                </div>
+                <div class="announcement">
+                    <h3>Webinar despre tehnologiile emergente în educație</h3>
+                    <p>Data: 12 Mai 2024, Ora: 5:00 PM</p>
+                    <p>Înregistrați-vă pentru a participa la un webinar captivant despre utilizarea tehnologiei în educație.</p>
+                </div>
+            </section>
+
             <p>Aici va fi ultimul anunț important pentru elevi.</p>
         </section>
-
-        <section class="participation-forms">
-            <h2>Fișe de participare</h2>
-            <p>Descarcă și completează fișele necesare pentru activitățile extracurriculare.</p>
-            <a href="assets/files/LimbajeDeProgramare.pdf" download="Fisa_Inscriere" class="download-button">Descarcă Fișa</a>
-        </section>
-
         <section class="schedule">
             <h2>Orar</h2>
             <p>Verifică orarul actualizat al claselor.</p>
