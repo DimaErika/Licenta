@@ -47,7 +47,7 @@ include("inc/parts/header.php");
                                 <span>Probleme</span>
                             </div>
                             <div class="col-6">
-                                <img src="assets/images/write.webp" alt="">
+                                <img src="assets/images/paper.webp" alt="">
                             </div>
                         </div>
                     </div>

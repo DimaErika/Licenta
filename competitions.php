@@ -52,7 +52,7 @@ include("inc/parts/header.php");
                     Clasele : IX-X
                 </p>
                 <p>
-                    <a href="code.php" class="button">Exerseaza</a>
+                    <a href="cner.php" class="button">Exerseaza</a>
                 </p>
             </div>
         </div>

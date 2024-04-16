@@ -24,7 +24,7 @@ include("inc/parts/header.php");
             <a href="competitions.php" class="category-card-link">
             <div class="category-card">
                 <div class="icon-container">
-                    <img src="assets/images/bank.png" alt="Development" class="category-icon">
+                    <img src="assets/images/prize.webp" alt="Development" class="category-icon">
                 </div>
                 <p class="category-name">Concursuri</p>
             </div>
@@ -35,7 +35,7 @@ include("inc/parts/header.php");
             <a href="quiz.php" class="category-card-link">
             <div class="category-card">
                 <div class="icon-container">
-                    <img src="assets/images/paper.webp" alt="Development" class="category-icon">
+                    <img src="assets/images/test.webp" alt="Development" class="category-icon">
                 </div>
                 <p class="category-name">Modul test</p>
             </div>
@@ -45,7 +45,7 @@ include("inc/parts/header.php");
             <a href="finals.php" class="category-card-link">
                 <div class="category-card">
                     <div class="icon-container">
-                        <img src="assets/images/book.webp" alt="Development" class="category-icon">
+                        <img src="assets/images/bac.webp" alt="Development" class="category-icon">
                     </div>
                     <p class="category-name">Subiecte bacalaureat</p>
                 </div>
@@ -57,7 +57,7 @@ include("inc/parts/header.php");
             <a href="class9.php" class="category-card-link">
                 <div class="category-card">
                     <div class="icon-container">
-                        <img src="assets/images/book.webp" alt="Development" class="category-icon">
+                        <img src="assets/images/exe.webp" alt="Development" class="category-icon">
                     </div>
                     <p class="category-name">Exercitii</p>
                 </div>
@@ -66,7 +66,7 @@ include("inc/parts/header.php");
             <a href="contact.php" class="category-card-link">
                 <div class="category-card">
                     <div class="icon-container">
-                        <img src="assets/images/book.webp" alt="Development" class="category-icon">
+                        <img src="assets/images/social.webp" alt="Development" class="category-icon">
                     </div>
                     <p class="category-name">Discuta cu un profesor</p>
                 </div>
@@ -76,7 +76,7 @@ include("inc/parts/header.php");
             <a href="about.php" class="category-card-link">
             <div class="category-card">
                 <div class="icon-container">
-                    <img src="path-to-icon/development.svg" alt="Development" class="category-icon">
+                    <img src="assets/images/team.webp" alt="Development" class="category-icon">
                 </div>
                 <p class="category-name">Echipa noastra</p>
             </div>

@@ -28,7 +28,7 @@ include("inc/parts/header.php");
                     <div class="row align-items-center">
                         <div class="col-4">
                             <div class="avatar">
-                                <img src="assets/images/trapez.jpg" alt="golden" class="avatar">
+                                <img src="assets/images/tri.jpg" alt="golden" class="avatar">
                             </div>
                         </div>
                         <div class="col-8">
@@ -60,7 +60,7 @@ include("inc/parts/header.php");
                     <div class="row align-items-center">
                         <div class="col-4">
                             <div class="avatar">
-                                <img src="assets/images/cube.webp" alt="golden" class="avatar">
+                                <img src="assets/images/horseshoe.jpg" alt="golden" class="avatar">
                             </div>
                         </div>
                         <div class="col-8">
@@ -96,21 +96,30 @@ include("inc/parts/header.php");
                     <div class="row align-items-center">
                         <div class="col-4">
                             <div class="avatar">
-                                <img src="assets/images/distance.avif" alt="golden" class="avatar">
+                                <img src="assets/images/footbal.png" alt="golden" class="avatar">
                             </div>
                         </div>
                         <div class="col-8">
-                            <h2>Radius</h2>
+                            <h2>Fotbal</h2>
                             <p class="placeholder">
                                 <span>Limbaj</span>: C++ |
-                                <span>Nivel</span>: medie |
-                                <span>Durata</span>: 50min |
-                                <span>Teste</span>: 1 |
-                                <span>Tip incarcare</span>: Consola |
-                                <span>Profesor</span>: Traian Florian Alin Moldoveanu
+                                <span>Nivel</span>: greu |
+                                <span>Durata</span>: 150min |
+                                <span>Teste</span>: 8 |
+                                <span>Tip incarcare</span>: Fisier |
+                                <span>Profesor</span>:  Mariana Grădinariu
                             </p>
                             <p>
-                                Se da un poligon regulat cu n laturi si a lungimea unei laturi. Aflati distanta de la centrul poligonului la oricare varf.
+                                Fotbalul este considerat sportul rege, având aproximativ 3,5 miliarde de fani.
+                                Printre acești fani se numără și un copil pe nume Messi, care are doar șase ani. Prietenul
+                                lui Ronaldo, cu doi ani mai mare l-a învățat atât regulile jocului, cât și cum se calculează
+                                punctajul echipelor din ligă. Ronaldo i-a explicat că pentru fiecare meci câștigat echipa primește 3 puncte,
+                                pentru fiecare meci pierdut echipa nu primește niciun punct, iar pentru meciurile terminate la egalitate, echipa
+                                primește 1 punct. După ce-i explică regulile, Ronaldo vrea să verifice dacă Messi a înțeles pe un exemplu. Cunoscând
+                                numărul de echipe și pentru fiecare echipă numărul de meciuri câștigate, numărul de meciuri pierdute și numărul de
+                                meciuri încheiate la egalitate, determinați, în funcție de paritatea lui n două rezultate: dacă numărul de echipe este
+                                par să se afle cel mai bun punctaj dintre toate echipele, iar dacă numărul de echipe este impar să se afle care este cel
+                                mai mic număr de meciuri pierdute.
                             </p>
                             <p>
                                 <a href="tel:0745495695" class="button">
@@ -126,22 +135,27 @@ include("inc/parts/header.php");
                     <div class="row align-items-center">
                         <div class="col-4">
                             <div class="avatar">
-                                <img src="assets/images/triangle.jpg" alt="golden" class="avatar">
+                                <img src="assets/images/mario.jpg" alt="golden" class="avatar">
                             </div>
                         </div>
                         <div class="col-8">
-                            <h2>Latura Triunghi</h2>
+                            <h2>Mario</h2>
                             <p class="placeholder">
                                 <span>Limbaj</span>: C++ |
-                                <span>Nivel</span>: medie |
-                                <span>Durata</span>: 50min |
-                                <span>Teste</span>: 1 |
-                                <span>Tip incarcare</span>: Consola |
-                                <span>Profesor</span>: Traian Florian Alin Moldoveanu
+                                <span>Nivel</span>: greu |
+                                <span>Durata</span>: 150min |
+                                <span>Teste</span>: 7 |
+                                <span>Tip incarcare</span>: Fisiere |
+                                <span>Profesor</span>: Lucian Neagu
                             </p>
                             <p>
-                                Se dau două laturi ale unui triunghi oarecare și măsura unghiului dintre ele. Aflați lungimea celeilalte laturi.
-                            </p>
+                                Instalatorul Mario a plecat în căutarea prințesei Peach. Până a ajunge la Castelul lui Bowser, acolo unde era
+                                ținută prizonieră prințesa, Mario a adunat N monede magice. Fiecare monedă, numerotată de la 1 la N are o o anumită
+                                valoare, moneda i având valoarea mi (1 ≤ i ≤ N). Ajuns la Castel, Mario l-a întâlnit pe Bowser care era mândrul posesor
+                                a unei colecții impresionante de monede, numerotate de la 1 la M, moneda i având o valoare bi (1 ≤ i ≤ M).
+                                În confruntarea finală, Bowser îi oferă lui Mario șansa de a o salva pe Peach doar dacă reușește să facă schimburile
+                                necesare între monedele lor, astfel încât cele mai mici N monedele să fie în posesia lui Mario și cele mai mari M
+                                valori să fie în posesia lui Bowser. Scrieți un program care să îi permită lui Mario să o salveze pe Peach.                            </p>
                             <p>
                                 <a href="tel:0745495695" class="button">
                                     <span class="far fa-file"></span>
@@ -156,21 +170,26 @@ include("inc/parts/header.php");
                     <div class="row align-items-center">
                         <div class="col-4">
                             <div class="avatar">
-                                <img src="assets/images/series.avif" alt="golden" class="avatar">
+                                <img src="assets/images/pitic.jpg" alt="golden" class="avatar">
                             </div>
                         </div>
                         <div class="col-8">
-                            <h2>Patrat Perfect</h2>
+                            <h2>Pitic</h2>
                             <p class="placeholder">
                                 <span>Limbaj</span>: C++ |
-                                <span>Nivel</span>: usoara |
-                                <span>Durata</span>: 30min |
-                                <span>Teste</span>: 1 |
-                                <span>Tip incarcare</span>: Consola |
-                                <span>Profesor</span>: Mirela Mlisan, Andrei Visalon
+                                <span>Nivel</span>: greu |
+                                <span>Durata</span>: 130min |
+                                <span>Teste</span>: 10 |
+                                <span>Tip incarcare</span>: Fisiere |
+                                <span>Profesor</span>: Lucian Neagu
                             </p>
                             <p>
-                                Se citește un număr n și apoi n numere naturale. Să se verifice pentru fiecare număr dacă este pătrat perfect.
+                                Piticul Doc și-a securizat pin-ul cardului bancar într-un mod cunoscut doar de el. Pin-ul este format din exact 4
+                                cifre. Doc dispune de o mulțime de informații numerice dispuse pe R rânduri. Fiecare cifră din pin-ul cardului bancar
+                                este un element majoritar pe rândul său, adică numărul de apariții ale cifrei respective este mai mare decât n / 2,
+                                unde n reprezintă numărul total de cifre de pe rândul respectiv. Tu poți afla pin-ul lui Doc sau crezi că a greșit
+                                securizarea pin-ului? Cunoscând numărul R de rânduri și numerele de pe fiecare rând, scrieţi un program care să
+                                determine pin-ul lui Doc.
                             </p>
                             <p>
                                 <a href="tel:0745495695" class="button">
@@ -186,22 +205,28 @@ include("inc/parts/header.php");
                     <div class="row align-items-center">
                         <div class="col-4">
                             <div class="avatar">
-                                <img src="images/pisicarasa1.jpg" alt="golden" class="avatar">
+                                <img src="assets/images/chr.png" alt="golden" class="avatar">
                             </div>
                         </div>
                         <div class="col-8">
-                            <h2>Arty</h2>
+                            <h2>Craciun</h2>
                             <p class="placeholder">
-                                <span>Sex</span>: Masculin |
-                                <span>Varsta</span>: 4 ani |
-                                <span>Rasa</span>: British Shorthair |
-                                <span>Talie</span>: Mare |
-                                <span>Vaccinat</span>: Da |
-                                <span>Sterilizat</span>: Da
+                                <span>Limbaj</span>: C++ |
+                                <span>Nivel</span>: greu |
+                                <span>Durata</span>: 130min |
+                                <span>Teste</span>: 9 |
+                                <span>Tip incarcare</span>: Fisiere |
+                                <span>Profesor</span>:  Anca Mihaela Uriciuc
                             </p>
                             <p>
-                                Arty este un motan care a fost abuzat. Fricos si timid isi cauta o noua familie iubitoare.
-                                Stie ca va avea multe de invatat, precum increderea, dar noi credem ca va gasi persoana potrivita cu care sa inceapa o noua viata.
+                                În Ajunul Crăciunului, așteptându-l nerăbdători pe Moș Crăciun, Andrei și Bogdan se hotărăsc să joace un joc,
+                                căștigătorul jocului fiind primul care va primi cadoul de la acesta. Ei scriu pe n bilete n numere naturale, câte
+                                un număr pe fiecare bilet. Fiecare extrage câte un bilet dintr-un bol. Un bilet este norocos dacă numărul scris pe
+                                el este număr fantastic. Un număr este fantastic dacă are număr par de cifre și este multiplu de 2024. Câștigătorul
+                                jocului este cel care extrage cele mai multe bilete norocoase. Dacă la finalul jocului cei doi băieți au extras număr
+                                egal de bilete norocoase sunt amândoi considerați câștigători și vor primi cadoul în același moment de timp. Cunoscând
+                                numărul n de bilete precum și numerele scrise pe cele n bilete, determinați care este numărul total de bilete norocoase
+                                extrase de cei doi copii.
                             </p>
                             <p>
                                 <a href="tel:0745495695" class="button">
@@ -217,24 +242,26 @@ include("inc/parts/header.php");
                     <div class="row align-items-center">
                         <div class="col-4">
                             <div class="avatar">
-                                <img src="images/pisicacute.jpg" alt="golden" class="avatar">
+                                <img src="assets/images/graph.png" alt="golden" class="avatar">
                             </div>
                         </div>
                         <div class="col-8">
-                            <h2>Olimpiada </h2>
+                            <h2>Graf Planar </h2>
                             <p class="placeholder">
                                 <span>Limbaj</span>: C++ |
                                 <span>Nivel</span>: grea |
                                 <span>Durata</span>: 160min |
-                                <span>Teste</span>: 4 |
+                                <span>Teste</span>: 8 |
                                 <span>Tip incarcare</span>: Fisiere |
-                                <span>Profesor</span>: Simona Ingrid Iuscinschi, Cornelia Ivașc
+                                <span>Profesor</span>: Alexandru Ioniță
                             </p>
                             <p>
-                                Un număr natural se numește kpower dacă este putere a numărului natural k. O secvență kpower este un subşir de numere kpower care apar pe poziţii consecutive într-un şir. Fiind dat un un număr natural k și un şir de n numere naturale, scrieți un program care rezolvă următoarele cerințe:
-                                1. Determină cel mai mare număr kpower dintre cele n numere date.
-                                2. Determină lungimea maximă a unei secvențe kpower.
-                                3. Determină cea mai mare sumă ce se poate obține adunând numerele dintr-o secvență kpower de lungime maximă.
+                                În teoria grafurilor, un graf planar este un graf care poate fi încorporat într-un plan, adică poate fi desenat
+                                în plan în așa fel încât muchiile sale să se intersecteze doar în noduri. Cu alte cuvinte, aceste poate fi desenat în
+                                așa fel încât oricare două muchii să nu se intersecteze. Florin urmează în perioada 2023-2029 studii în informatică.
+                                Fiind date NR = 2 * N noduri fixe (asemănător cu ceasul clasic) în planul xOy și N muchii, Florin vrea să determine
+                                numărul grafurilor distincte planare în care fiecare nod va avea gradul 1. Scrieţi un program care să determine numărul
+                                de grafuri obținute de Florin.
                             </p>
                             <p>
                                 <a href="tel:0745495695" class="button">
